@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left, .right {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    background-color: rgb(29, 202, 144);
+    width: calc(100vw /2) px;
+}
+.right {
+    background-color: rgb(231, 231, 108);
+    flex: 1;
+}
+.divider {
+    border: 3px solid black;
+    background-color: rgb(27, 27, 27);
+    cursor: col-resize;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
